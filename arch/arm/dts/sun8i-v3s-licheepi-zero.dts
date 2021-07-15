@@ -75,6 +75,12 @@
 	status = "okay";
 };
 
+&uart2 {
+        pinctrl-0 = <&uart2_pb_pins>;
+        pinctrl-names = "default";
+        status = "okay";
+};
+
 &usb_otg {
 	dr_mode = "otg";
 	status = "okay";
